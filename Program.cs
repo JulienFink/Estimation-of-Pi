@@ -30,8 +30,8 @@ namespace Estimate_Pi
 
         static void Main(string[] args)
         {
-            int a_milion = 100000;
-            float output = estimation_pi(a_milion);
+            int value = 100000;
+            float output = estimation_pi(value);
             Console.Write($"An estimation of pi could be : {output} .");
             Console.ReadLine();
         }
